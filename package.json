@@ -1,7 +1,7 @@
 {
   "name": "@jacksongross/vue-tweet-embed",
   "version": "3.0.0",
-  "description": "Embed tweets in your vue.js app",
+  "description": "Embed tweets in your Vue 3 app",
   "main": "dist",
   "scripts": {
     "test": "ava --serial --verbose --no-power-assert",
@@ -15,20 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tonickkozlov/vue-tweet-embed.git"
+    "url": "git+https://github.com/jacksonGross/vue-tweet-embed.git"
   },
   "bugs": {
-    "url": "https://github.com/tonickkozlov/vue-tweet-embed/issues"
+    "url": "https://github.com/jacksonGross/vue-tweet-embed/issues"
   },
-  "homepage": "https://github.com/tonickkozlov/vue-tweet-embed#readme",
+  "homepage": "https://github.com/jacksonGross/vue-tweet-embed#readme",
   "keywords": [
     "vue",
+    "vue 3",
     "vue.js",
     "tweet",
     "twitter",
     "embed"
   ],
-  "author": "Anton Kozlov <tonickkozlov@me.com>",
+  "author": "Jackson Gross <jackson.gross@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "vue": "3.x"

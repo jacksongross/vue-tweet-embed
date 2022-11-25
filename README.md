@@ -1,40 +1,38 @@
-[![CircleCI](https://circleci.com/gh/tonickkozlov/vue-tweet-embed.svg?style=svg)](https://circleci.com/gh/tonickkozlov/vue-tweet-embed) [![Greenkeeper badge](https://badges.greenkeeper.io/tonickkozlov/vue-tweet-embed.svg)](https://greenkeeper.io/)
+# @jacksongross/vue-tweet-embed
 
-# vue-tweet-embed
-
-Embed tweets in your vue.js app.  
-Inspired by https://github.com/capaj/react-tweet-embed
+Embed tweets in your Vue 3 app.
+Inspired by https://github.com/capaj/react-tweet-embed, forked from https://github.com/tonickkozlov/vue-tweet-embed to support Vue 3
 
 ## Install
 ```
-npm install vue-tweet-embed
+npm install @jacksongross/vue-tweet-embed
 ```
 
 ## Supported components
-Currently only Tweet and Moment components are supported form Twitter's widget API.  
+Currently only Tweet and Moment components are supported form Twitter's widget API.
 Components can be imported in one statement:
 ```javascript
-import { Tweet, Moment, Timeline } from 'vue-tweet-embed'
+import { Tweet, Moment, Timeline } from '@jacksongross/vue-tweet-embed'
 ```
 or individually
 ```javascript
-import Tweet from 'vue-tweet-embed/tweet'
-import Moment from 'vue-tweet-embed/moment'
-import Timeline from 'vue-tweet-embed/timeline'
+import Tweet from '@jacksongross/vue-tweet-embed/tweet'
+import Moment from '@jacksongross/vue-tweet-embed/moment'
+import Timeline from '@jacksongross/vue-tweet-embed/timeline'
 ```
 
 Moment component can be used the same way Tweet component is used (see below).
 ## Quickstart
 
 ```javascript
-import { Tweet } from 'vue-tweet-embed'
+import { Tweet } from '@jacksongross/vue-tweet-embed'
 
 <Tweet id="692527862369357824"></Tweet>
 <Tweet id="14"></Tweet>	// test tweet not available or deleted
 ```
 
 You don't have to put `//platform.twitter.com/widgets.js` script in your index.html as this lib will
-put it there if `twttr` is not found on window.  
+put it there if `twttr` is not found on window.
 
 
 ## Using Options
