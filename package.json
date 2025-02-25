@@ -15,12 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacksonGross/vue-tweet-embed.git"
+    "url": "git+https://github.com/jacksongross/vue-tweet-embed.git"
   },
   "bugs": {
-    "url": "https://github.com/jacksonGross/vue-tweet-embed/issues"
+    "url": "https://github.com/jacksongross/vue-tweet-embed/issues"
   },
-  "homepage": "https://github.com/jacksonGross/vue-tweet-embed#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "homepage": "https://github.com/jacksongross/vue-tweet-embed#readme",
   "keywords": [
     "vue",
     "vue 3",
